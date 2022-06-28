@@ -69,7 +69,7 @@ If ($lastexitcode -ne 0) { Throw $lastexitcode }
 & $embedded_bin_dir\rspec.bat --version
 If ($lastexitcode -ne 0) { Throw $lastexitcode }
 
-$Env:PATH = "C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;$Env:PATH"
+$Env:PATH = "C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\Git\bin;$Env:PATH"
 
 # Test against the vendored chef gem (cd into the output of "gem which chef")
 $chefdir = gem which chef
