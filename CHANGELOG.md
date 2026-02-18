@@ -1,17 +1,18 @@
 <!-- usage documentation: http://expeditor-docs.es.chef.io/configuration/changelog/ -->
 This changelog lists individual merged pull requests to Chef Infra Client and geared towards developers. For a list of significant changes per release see the [Chef Infra Client Release Notes](https://docs.chef.io/release_notes_client/).
 
-<!-- latest_release 19.1.170 -->
-## [v19.1.170](https://github.com/chef/chef/tree/v19.1.170) (2026-02-12)
+<!-- latest_release 19.1.171 -->
+## [v19.1.171](https://github.com/chef/chef/tree/v19.1.171) (2026-02-18)
 
 #### Merged Pull Requests
-- Bump ctke to pick up latest kitchen-dokken [#15635](https://github.com/chef/chef/pull/15635) ([tpowell-progress](https://github.com/tpowell-progress))
+- Tp/dokken kd bump [#15637](https://github.com/chef/chef/pull/15637) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=19.1.164 -->
 ### Changes not yet released to stable
 
 #### Merged Pull Requests
+- Tp/dokken kd bump [#15637](https://github.com/chef/chef/pull/15637) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 19.1.171 -->
 - Bump ctke to pick up latest kitchen-dokken [#15635](https://github.com/chef/chef/pull/15635) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 19.1.170 -->
 - Removing the PowerShell package [#15611](https://github.com/chef/chef/pull/15611) ([johnmccrae](https://github.com/johnmccrae)) <!-- 19.1.169 -->
 - Remove fauxhai from tests that don&#39;t need it [#15624](https://github.com/chef/chef/pull/15624) ([jaymzh](https://github.com/jaymzh)) <!-- 19.1.168 -->
