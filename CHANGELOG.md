@@ -1,17 +1,18 @@
 <!-- usage documentation: http://expeditor-docs.es.chef.io/configuration/changelog/ -->
 This changelog lists individual merged pull requests to Chef Infra Client and geared towards developers. For a list of significant changes per release see the [Chef Infra Client Release Notes](https://docs.chef.io/release_notes_client/).
 
-<!-- latest_release 19.1.172 -->
-## [v19.1.172](https://github.com/chef/chef/tree/v19.1.172) (2026-02-20)
+<!-- latest_release 19.1.173 -->
+## [v19.1.173](https://github.com/chef/chef/tree/v19.1.173) (2026-02-23)
 
 #### Merged Pull Requests
-- Updating file lock handling for choco resources [#15646](https://github.com/chef/chef/pull/15646) ([johnmccrae](https://github.com/johnmccrae))
+- match platforms for gem versions in rubygems provider [#15649](https://github.com/chef/chef/pull/15649) ([rishichawda](https://github.com/rishichawda))
 <!-- latest_release -->
 
 <!-- release_rollup since=19.1.164 -->
 ### Changes not yet released to stable
 
 #### Merged Pull Requests
+- match platforms for gem versions in rubygems provider [#15649](https://github.com/chef/chef/pull/15649) ([rishichawda](https://github.com/rishichawda)) <!-- 19.1.173 -->
 - Updating file lock handling for choco resources [#15646](https://github.com/chef/chef/pull/15646) ([johnmccrae](https://github.com/johnmccrae)) <!-- 19.1.172 -->
 - Tp/dokken kd bump [#15637](https://github.com/chef/chef/pull/15637) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 19.1.171 -->
 - Bump ctke to pick up latest kitchen-dokken [#15635](https://github.com/chef/chef/pull/15635) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 19.1.170 -->
